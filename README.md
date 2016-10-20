@@ -1,2 +1,3 @@
-# NLPIR-ICTCLAS
---resource/ dynamic library dir
+# NLPIR-ICTCLAS 
+    Surport MacOS、Linux、Windows
+* resource/ dynamic library dir

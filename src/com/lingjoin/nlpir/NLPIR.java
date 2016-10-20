@@ -193,7 +193,8 @@ public class NLPIR {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		
+		NLPIR.init("lib");
+		System.out.println(NLPIR.isWord("中国"));
 	}
 }
 
