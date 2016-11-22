@@ -9,3 +9,6 @@
     https://github.com/NLPIR-team/NLPIR/tree/master/NLPIR%20SDK/NLPIR-ICTCLAS
 =======
 >>>>>>> branch 'master' of https://github.com/NLPIR-team/NLPIR-ICTCLAS.git
+
+# NLPIR-License
+  https://github.com/NLPIR-team/NLPIR/tree/master/License
