@@ -7,8 +7,21 @@ public interface CNLPIRLibrary extends Library {
 
 	CNLPIRLibrary Instance = (CNLPIRLibrary) Native.loadLibrary("NLPIR", CNLPIRLibrary.class);
 	
+	/**
+	 * 初始化
+	 * @param sDataPath Data目录所在路径
+	 * @param encoding 编码，0是GBK，1是UTF8
+	 * @param sLicenceCode 为空即可
+	 * @return
+	 */
 	public boolean NLPIR_Init(String sDataPath, int encoding, String sLicenceCode);
 
+	/**
+	 * 分词接口
+	 * @param sParagraph 待分词串
+	 * @param bPOSTagged 是否带词性
+	 * @return
+	 */
 	public String NLPIR_ParagraphProcess(String sParagraph, int bPOSTagged);
 
 	public int NLPIR_GetParagraphProcessAWordCount(String para);
